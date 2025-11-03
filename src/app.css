@@ -1,0 +1,80 @@
+/* Tailwind CSS */
+@import "tailwindcss";
+
+/* Custom styles */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Markdown styles for notes */
+.note-content h1,
+.note-content h2,
+.note-content h3,
+.note-content h4,
+.note-content h5,
+.note-content h6 {
+	font-weight: bold;
+	margin: 0.5rem 0;
+}
+
+.note-content h1 { font-size: 1.5rem; }
+.note-content h2 { font-size: 1.25rem; }
+.note-content h3 { font-size: 1.125rem; }
+.note-content h4 { font-size: 1rem; }
+.note-content h5 { font-size: 0.875rem; }
+.note-content h6 { font-size: 0.75rem; }
+
+.note-content p {
+	margin: 0.25rem 0;
+}
+
+.note-content ul,
+.note-content ol {
+	margin: 0.25rem 0;
+	padding-left: 1.5rem;
+}
+
+.note-content li {
+	margin: 0.125rem 0;
+}
+
+.note-content code {
+	background-color: #f1f1f1;
+	padding: 0.125rem 0.25rem;
+	border-radius: 0.125rem;
+	font-family: monospace;
+	font-size: 0.875rem;
+}
+
+.note-content pre {
+	background-color: #f1f1f1;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	overflow-x: auto;
+	margin: 0.25rem 0;
+}
+
+.note-content pre code {
+	background-color: transparent;
+	padding: 0;
+}
+
+.note-content blockquote {
+	border-left: 3px solid #ccc;
+	padding-left: 0.5rem;
+	margin: 0.25rem 0;
+	font-style: italic;
+}
+
+.note-content strong {
+	font-weight: bold;
+}
+
+.note-content em {
+	font-style: italic;
+}
+
+.note-content a {
+	color: #0066cc;
+	text-decoration: underline;
+}
